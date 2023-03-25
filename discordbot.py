@@ -6,7 +6,7 @@ import os
 load_dotenv()
 
 PREFIX = os.environ['PREFIX']
-TOKEN = os.environ['TOKEN']
+TOKEN = os.environ['MTA4OTIwNzM4OTIyOTY5OTE3NQ.GovbsL.Zy-mK4CX0k8C8cLFC_r_8LMOD56DvyqOCQQYrk']
 
 client = discord.Client()
 
@@ -27,6 +27,6 @@ async def on_message(message):
 
 
 try:
-    client.run(TOKEN)
+    client.run(MTA4OTIwNzM4OTIyOTY5OTE3NQ.GovbsL.Zy-mK4CX0k8C8cLFC_r_8LMOD56DvyqOCQQYrk)
 except discord.errors.LoginFailure as e:
     print("Improper token has been passed.")
